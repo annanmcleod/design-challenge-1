@@ -1,7 +1,30 @@
 ________________________________
 **Original Code**
 
+body {
+    background: auto;
+}
 
+.container {
+    border-left: auto;
+}
+
+p {
+    color: auto;
+}
+
+input[type=text], textarea {
+    background: auto;
+    border-bottom: auto;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: auto;
+}
+
+input[type=submit] {
+    background: auto;
+}
 
 ________________________________
 **My Code**
@@ -11,4 +34,29 @@ ________________________________
 ________________________________
 **Instructor Code**
 
+body {
+    background: white;
+    color: #1C2022;
+}
 
+.container {
+    border-left: .7em  solid #FF01FF;
+}
+
+p {
+    color: #2B3337;
+}
+
+input[type=text], textarea {
+    background: white;
+    border-bottom: 1px solid #506671;
+    color: #2B3337;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid #FF01FF;
+}
+
+input[type=submit] {
+    background: #FF01FF;
+}
