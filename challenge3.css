@@ -29,7 +29,33 @@ input[type=submit] {
 ________________________________
 **My Code**
 
+body {
+    background: #2B3337;
+}
 
+.container {
+    border-left: 4px #FF01FF;
+    border-left: 15px solid white;
+    color: #FF01FF;
+}
+
+p {
+    color: white;
+}
+
+input[type=text], textarea {
+    background: #2B3337;
+    border-bottom: 1px solid #FF01FF;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 4px solid #FF01FF;
+}
+
+input[type=submit] {
+    background: #9D9D9D ;
+    color: white;
+}
 
 ________________________________
 **Instructor Code**
