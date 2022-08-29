@@ -20,6 +20,28 @@ h3 {
 ________________________________
 **My Code**
 
+.container {
+    width: 90%;
+}
+
+.card {
+    background: #2C3031;
+    padding: 25px;
+}
+
+p.date {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #7A8587;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin: 0 0 12px;
+    color: #B6EAFF;
+    font-size: 30px;
+}
 
 ___________________________
 **Instructor Code**
